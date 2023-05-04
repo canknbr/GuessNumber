@@ -13,6 +13,8 @@
 		366F62862A02C9B10035F755 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 366F62842A02C9B10035F755 /* Main.storyboard */; };
 		366F62882A02C9B30035F755 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 366F62872A02C9B30035F755 /* Assets.xcassets */; };
 		366F628B2A02C9B30035F755 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 366F62892A02C9B30035F755 /* LaunchScreen.storyboard */; };
+		366F62932A02CA3D0035F755 /* GuessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366F62922A02CA3D0035F755 /* GuessViewController.swift */; };
+		366F62952A02CA4C0035F755 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366F62942A02CA4C0035F755 /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		366F62872A02C9B30035F755 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		366F628A2A02C9B30035F755 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		366F628C2A02C9B30035F755 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		366F62922A02CA3D0035F755 /* GuessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessViewController.swift; sourceTree = "<group>"; };
+		366F62942A02CA4C0035F755 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				366F62802A02C9B10035F755 /* SceneDelegate.swift */,
 				366F62822A02C9B10035F755 /* ViewController.swift */,
 				366F62842A02C9B10035F755 /* Main.storyboard */,
+				366F62942A02CA4C0035F755 /* ResultViewController.swift */,
+				366F62922A02CA3D0035F755 /* GuessViewController.swift */,
 				366F62872A02C9B30035F755 /* Assets.xcassets */,
 				366F62892A02C9B30035F755 /* LaunchScreen.storyboard */,
 				366F628C2A02C9B30035F755 /* Info.plist */,
@@ -138,8 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				366F62952A02CA4C0035F755 /* ResultViewController.swift in Sources */,
 				366F62832A02C9B10035F755 /* ViewController.swift in Sources */,
 				366F627F2A02C9B10035F755 /* AppDelegate.swift in Sources */,
+				366F62932A02CA3D0035F755 /* GuessViewController.swift in Sources */,
 				366F62812A02C9B10035F755 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
